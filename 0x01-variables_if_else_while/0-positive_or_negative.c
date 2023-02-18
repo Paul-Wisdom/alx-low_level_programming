@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-/***
+/**
  *  main - the function generates a random number
  *  and checks if it is positive,negative or zero
  *  Return: 0 if the code runs successfully
@@ -16,7 +16,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-	       	printf("%d is positive\n", n); 
+		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
