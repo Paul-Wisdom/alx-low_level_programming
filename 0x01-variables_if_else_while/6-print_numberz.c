@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- *  main - prints single digit numbers
- *  Return: 0 for success
+ * main - print numbers
+ * Return: 0 success
  */
 int main(void)
 {
 	int i;
 
 	for (i = 0; i < 10; i++)
-		printf("%d",i);
+		putchar(48 + i);
 	putchar('\n');
 	return (0);
 }
