@@ -3,8 +3,8 @@
 
 /**
  * _isalpha - checks for alphabets
- * Return: 1 if its a letter
- * Return: 0 otherwise
+ * Return: 1 if its a letter 0 otherwise
+ * @c: int input
  */
 int _isalpha(int c)
 {
