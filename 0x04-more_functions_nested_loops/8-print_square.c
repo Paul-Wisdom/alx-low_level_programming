@@ -20,4 +20,11 @@ void print_square(int size)
 		}
 	}
 	else if ((size == 0) || (size < 0))
+	{
 		_putchar('\n');
+	}
+	else
+	{
+		_putchar('\n');
+	}
+}
