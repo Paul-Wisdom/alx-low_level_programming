@@ -3,7 +3,7 @@
 /**
  * print_array - literally
  * @a: the array
- * @n: number of elements of the array to be 
+ * @n: number of elements of the array to be
  * printed
  */
 void print_array(int *a, int n)
@@ -18,8 +18,7 @@ void print_array(int *a, int n)
 		}
 		else
 		{
-			printf("%d ,", a[i]);
+			printf("%d, ", a[i]);
 		}
 	}
 }
-				
