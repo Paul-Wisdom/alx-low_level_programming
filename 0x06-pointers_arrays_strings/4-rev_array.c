@@ -4,6 +4,7 @@
  * reverse_array - literally
  * @a: array
  * @n: array size
+ * Return: reversed array
  */
 void reverse_array(int *a, int n)
 {
