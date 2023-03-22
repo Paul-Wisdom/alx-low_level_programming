@@ -1,5 +1,3 @@
-#include "function_pointers.h"
-#include <stdio.h>
 /**
  * array_iterator - A function that executes another
  * function given as a parameter on every element 
