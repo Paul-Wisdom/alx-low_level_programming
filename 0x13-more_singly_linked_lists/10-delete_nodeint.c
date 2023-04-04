@@ -15,8 +15,8 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		return (-1);
 	}
 	temp = *head;
-	len = listint_len(temp);
-	if (index < 0 || index >= len)
+	len = print_listint(temp);
+	if (index >= len)
 	{
 		return (-1);
 	}
