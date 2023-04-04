@@ -1,5 +1,25 @@
 #include "lists.h"
 /**
+ * add_nodeint - adds node at beginning of list
+ * @head: list
+ * @n: value
+ * Return: address of node
+ */
+listint_t *add_nodeint(listint_t **head, const int n)
+{
+        listint_t *new;
+
+        new = (listint_t *)malloc(sizeof(listint_t));
+        if (!new)
+        {
+                return (NULL);
+        }
+        new->n = n;
+        new->next = *head;
+        *head = new;
+        return (new);
+}
+/**
  * insert_nodeint_at_index - literally
  * @head: lists
  * @idx: index
@@ -12,8 +32,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	unsigned int i, len;
 
 	temp = *head;
-	len = listint_len(temp);
-	if (idx >= len || idx < 0)
+	len = print_listint(temp);
+	if (idx >= len)
 	{
 		return (NULL);
 	}
