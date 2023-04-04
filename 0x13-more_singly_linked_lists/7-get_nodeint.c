@@ -13,8 +13,8 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	{
 		return (NULL);
 	}
-	len = listint_len(head);
-	if (index >= len || index < 0)
+	len = print_listint(head);
+	if (index >= len)
 	{
 		return (NULL);
 	}
