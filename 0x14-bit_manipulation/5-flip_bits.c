@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * a function that returns the number of bits you would
- *  need to flip to get from one number to another.
- *  @n: first num
- *  @m: second num
- *  Return: num of bits to flip
+ * need to flip to get from one number to another.
+ * @n: first num
+ * @m: second num
+ * Return: num of bits to flip
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
@@ -20,4 +20,4 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	}
 
 	return (c);
-}
+i}
